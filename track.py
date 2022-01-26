@@ -12,7 +12,7 @@ import sys
 sys.path.insert(0, './yolov5')
 
 
-from yolov5.utils.downloads import attempt_download
+# from yolov5.utils.downloads import attempt_download
 from yolov5.models.common import DetectMultiBackend
 from yolov5.utils.datasets import LoadImages, LoadStreams
 from yolov5.utils.general import LOGGER, check_img_size, non_max_suppression, scale_coords, check_imshow, xyxy2xywh, \
