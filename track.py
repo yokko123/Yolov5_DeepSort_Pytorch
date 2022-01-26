@@ -11,7 +11,7 @@ os.environ["NUMEXPR_NUM_THREADS"] = "1"
 import sys
 sys.path.insert(0, './yolov5')
 
-
+from yolov5 import *
 # from yolov5.utils.downloads import attempt_download
 from models.common import DetectMultiBackend
 from utils.datasets import LoadImages, LoadStreams
