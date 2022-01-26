@@ -2,7 +2,8 @@ from contextlib import contextmanager
 from io import StringIO
 
 #from streamlit.report_thread import REPORT_CONTEXT_ATTR_NAME
-from track import *
+from track import detection
+import streamlit as st
 import os
 import sys
 import argparse
